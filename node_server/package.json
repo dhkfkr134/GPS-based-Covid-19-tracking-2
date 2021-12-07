@@ -1,0 +1,28 @@
+{
+  "name": "",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "webpack --mode development --watch",
+    "start": "webpack --mode production --watch",
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/node": "^7.16.0",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.16.4",
+    "babel-loader": "^8.2.3",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "node-polyfill-webpack-plugin": "^1.1.4",
+    "nodemon-webpack-plugin": "^4.6.0",
+    "webpack": "^5.64.2",
+    "webpack-cli": "^4.9.1"
+  }
+}
